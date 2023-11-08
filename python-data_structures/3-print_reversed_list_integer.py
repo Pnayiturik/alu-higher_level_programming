@@ -5,4 +5,4 @@ a=[]
 for b in my_list:
     a.insert(0,b)
 for b in a:
-    print(b)
+    print("{:d}".format(b))
